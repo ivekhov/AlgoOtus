@@ -1,0 +1,5 @@
+File "test.0.in" Test #0: True	Time: 0.00038445 sec.	2020-02-01 21:32:46.573000
+File "test.1.in" Test #1: True	Time: 0.00024172 sec.	2020-02-01 21:32:46.573326
+File "test.2.in" Test #2: True	Time: 0.00020584 sec.	2020-02-01 21:32:46.573587
+File "test.3.in" Test #3: True	Time: 0.00019857 sec.	2020-02-01 21:32:46.573836
+File "test.4.in" Test #4: False	Time: 0.00020459 sec.	2020-02-01 21:32:46.574088
