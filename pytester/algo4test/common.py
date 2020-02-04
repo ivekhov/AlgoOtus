@@ -11,3 +11,15 @@ def compare_files(first_file, second_file, algo):
 		result = algo(line)
 		
 	return result == find_etalon_value(second_file)
+
+
+def compare_files_gcd(first_file, second_file, algo):
+	with open(first_file, 'r') as f:
+		line = f.read().rstrip()
+		temp = line.split(',')
+		list_num = [int(x) for x in temp]
+		
+		# алгоритм натравливается на строку - содержание входного файла
+		result = algo(list_num[0], list_num[1])
+
+	return result == find_etalon_value(second_file)

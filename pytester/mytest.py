@@ -23,12 +23,12 @@ def testing(task, path):
 			# core function is task, managed in config.py
 			flag = task(infile, outfile)
 
-			print('File "{}" Test #{}: {}\tTime: {:.5g} sec'.format(first, ix, flag, 
+			print('Algo name: {}. File "{}" Test #{}: {}\tTime: {:.5g} sec'.format(flag[0], first, ix, flag[1], 
 				time.perf_counter() - start_time))
-			f.write('File "{}" Test #{}: {}\tTime: {:.5g} sec.\t{}\n'.format(first, ix, flag,
+			f.write('Algo name: {}. File "{}" Test #{}: {}\tTime: {:.5g} sec.\t{}\n'.format(flag[0], first, ix, flag[1],
 				(time.perf_counter() - start_time), datetime.now()))
 			ix += 1
-
+		f.write('------------------------------------------------------------------------\n\n')
 
 def main():
 	testing(TASK, LOCAL_PATH)
