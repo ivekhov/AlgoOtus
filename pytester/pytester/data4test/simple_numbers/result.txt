@@ -1,0 +1,38 @@
+Algo name,File,Test #,Result,Time(sec),Time of testing
+find_simple_array,test.0.in,0,True,0.0011467,2020-02-05 18:23:00.999501
+find_simple_array,test.1.in,1,True,0.0013512,2020-02-05 18:23:01.000502
+find_simple_array,test.2.in,2,True,0.0011037,2020-02-05 18:23:01.001504
+find_simple_array,test.3.in,3,True,0.0031901,2020-02-05 18:23:01.005513
+find_simple_array,test.4.in,4,True,0.03389,2020-02-05 18:23:01.038637
+find_simple_array,test.5.in,5,True,0.17858,2020-02-05 18:23:01.217684
+find_simple_array,test.6.in,6,True,7.4641,2020-02-05 18:23:08.682115
+find_simple_array,test.7.in,7,True,43.958,2020-02-05 18:23:52.640835
+------------------------------------------------------------------------
+find_simple_sqrt_array,test.0.in,0,True,0.0028075,2020-02-05 18:24:41.328753
+find_simple_sqrt_array,test.1.in,1,True,0.009448,2020-02-05 18:24:41.338277
+find_simple_sqrt_array,test.2.in,2,True,0.0055428,2020-02-05 18:24:41.343294
+find_simple_sqrt_array,test.3.in,3,True,0.015423,2020-02-05 18:24:41.359337
+find_simple_sqrt_array,test.4.in,4,True,0.04629,2020-02-05 18:24:41.405461
+find_simple_sqrt_array,test.5.in,5,True,0.11061,2020-02-05 18:24:41.516770
+find_simple_sqrt_array,test.6.in,6,True,0.36734,2020-02-05 18:24:41.883798
+find_simple_sqrt_array,test.7.in,7,True,0.49591,2020-02-05 18:24:42.379814
+------------------------------------------------------------------------
+find_simple_nlogn,test.0.in,0,True,0.0017144,2020-02-05 18:25:22.499133
+find_simple_nlogn,test.1.in,1,True,0.0013731,2020-02-05 18:25:22.500135
+find_simple_nlogn,test.2.in,2,True,0.0012631,2020-02-05 18:25:22.502141
+find_simple_nlogn,test.3.in,3,True,0.0013773,2020-02-05 18:25:22.503144
+find_simple_nlogn,test.4.in,4,True,0.0024077,2020-02-05 18:25:22.505148
+find_simple_nlogn,test.5.in,5,True,0.0047445,2020-02-05 18:25:22.510161
+find_simple_nlogn,test.6.in,6,True,0.027925,2020-02-05 18:25:22.538738
+find_simple_nlogn,test.7.in,7,True,0.11975,2020-02-05 18:25:22.658597
+------------------------------------------------------------------------
+
+find_simple_eratosfen_loglogn,test.0.in,0,True,0.00018981,2020-02-05 21:26:41.600756
+find_simple_eratosfen_loglogn,test.1.in,1,True,0.00017992,2020-02-05 21:26:41.600967
+find_simple_eratosfen_loglogn,test.2.in,2,True,0.00014243,2020-02-05 21:26:41.601140
+find_simple_eratosfen_loglogn,test.3.in,3,True,0.00016801,2020-02-05 21:26:41.601328
+find_simple_eratosfen_loglogn,test.4.in,4,True,0.00032202,2020-02-05 21:26:41.601666
+find_simple_eratosfen_loglogn,test.5.in,5,True,0.00089893,2020-02-05 21:26:41.602581
+find_simple_eratosfen_loglogn,test.6.in,6,True,0.0026174,2020-02-05 21:26:41.605219
+find_simple_eratosfen_loglogn,test.7.in,7,True,0.0072138,2020-02-05 21:26:41.612451
+------------------------------------------------------------------------

@@ -1,0 +1,37 @@
+Algo name,File,Test #,Result,Time(sec),Time of testing
+find_simple_array,test.0.in,0,('find_simple_array', True),0.0016083,2020-02-05 18:08:52.456139
+find_simple_array,test.1.in,1,('find_simple_array', True),0.0017095,2020-02-05 18:08:52.458144
+find_simple_array,test.2.in,2,('find_simple_array', False),0.0012673,2020-02-05 18:08:52.459146
+find_simple_array,test.3.in,3,('find_simple_array', True),0.0040353,2020-02-05 18:08:52.463157
+find_simple_array,test.4.in,4,('find_simple_array', True),0.034295,2020-02-05 18:08:52.497246
+find_simple_array,test.5.in,5,('find_simple_array', True),0.13374,2020-02-05 18:08:52.631742
+find_simple_array,test.6.in,6,('find_simple_array', True),3.4863,2020-02-05 18:08:56.117931
+find_simple_array,test.7.in,7,('find_simple_array', True),36.756,2020-02-05 18:09:32.874484
+------------------------------------------------------------------------
+find_simple_array,test.0.in,0,('find_simple_array', True),0.001499,2020-02-05 18:15:47.131136
+find_simple_array,test.1.in,1,('find_simple_array', True),0.002176,2020-02-05 18:15:47.134145
+find_simple_array,test.2.in,2,('find_simple_array', False),0.0017331,2020-02-05 18:15:47.135150
+find_simple_array,test.3.in,3,('find_simple_array', True),0.0038389,2020-02-05 18:15:47.139160
+find_simple_array,test.4.in,4,('find_simple_array', True),0.043831,2020-02-05 18:15:47.183276
+find_simple_array,test.5.in,5,('find_simple_array', True),0.12863,2020-02-05 18:15:47.312139
+find_simple_array,test.6.in,6,('find_simple_array', True),3.6096,2020-02-05 18:15:50.921821
+find_simple_array,test.7.in,7,('find_simple_array', True),31.491,2020-02-05 18:16:22.412879
+------------------------------------------------------------------------
+find_simple_array,test.0.in,0,('find_simple_array', True),0.0010663,2020-02-05 18:17:51.383673
+find_simple_array,test.1.in,1,('find_simple_array', True),0.0011971,2020-02-05 18:17:51.384705
+find_simple_array,test.2.in,2,('find_simple_array', False),0.0010423,2020-02-05 18:17:51.385708
+find_simple_array,test.3.in,3,('find_simple_array', True),0.0046422,2020-02-05 18:17:51.389802
+find_simple_array,test.4.in,4,('find_simple_array', True),0.03384,2020-02-05 18:17:51.423898
+find_simple_array,test.5.in,5,('find_simple_array', True),0.12753,2020-02-05 18:17:51.551299
+find_simple_array,test.6.in,6,('find_simple_array', True),3.9369,2020-02-05 18:17:55.488833
+find_simple_array,test.7.in,7,('find_simple_array', False),0.0012271,2020-02-05 18:17:55.490337
+------------------------------------------------------------------------
+find_simple_array,test.0.in,0,True,0.0015409,2020-02-05 18:18:58.339849
+find_simple_array,test.1.in,1,True,0.0015152,2020-02-05 18:18:58.340882
+find_simple_array,test.2.in,2,False,0.0015702,2020-02-05 18:18:58.342889
+find_simple_array,test.3.in,3,True,0.0035699,2020-02-05 18:18:58.346899
+find_simple_array,test.4.in,4,True,0.032468,2020-02-05 18:18:58.378968
+find_simple_array,test.5.in,5,True,0.13575,2020-02-05 18:18:58.514927
+find_simple_array,test.6.in,6,True,3.41,2020-02-05 18:19:01.924959
+find_simple_array,test.7.in,7,False,0.001127,2020-02-05 18:19:01.925961
+------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+Algo name: gcd_minus. File "test.0.in" Test #0: True	Time: 0.00011707 sec.	2020-02-05 00:02:43.379598
+Algo name: gcd_minus. File "test.1.in" Test #1: True	Time: 8.9205e-05 sec.	2020-02-05 00:02:43.379711
+Algo name: gcd_minus. File "test.2.in" Test #2: True	Time: 6.9749e-05 sec.	2020-02-05 00:02:43.379796
+Algo name: gcd_minus. File "test.3.in" Test #3: True	Time: 6.728e-05 sec.	2020-02-05 00:02:43.379879
+Algo name: gcd_minus. File "test.4.in" Test #4: True	Time: 9.7723e-05 sec.	2020-02-05 00:02:43.379991
+Algo name: gcd_minus. File "test.5.in" Test #5: True	Time: 0.00013362 sec.	2020-02-05 00:02:43.380140
+Algo name: gcd_minus. File "test.6.in" Test #6: True	Time: 0.0271 sec.	2020-02-05 00:02:43.407272
+Algo name: gcd_minus. File "test.7.in" Test #7: True	Time: 0.0048715 sec.	2020-02-05 00:02:43.412189
+------------------------------------------------------------------------
+
