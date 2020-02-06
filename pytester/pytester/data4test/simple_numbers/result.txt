@@ -36,3 +36,12 @@ find_simple_eratosfen_loglogn,test.5.in,5,True,0.00089893,2020-02-05 21:26:41.60
 find_simple_eratosfen_loglogn,test.6.in,6,True,0.0026174,2020-02-05 21:26:41.605219
 find_simple_eratosfen_loglogn,test.7.in,7,True,0.0072138,2020-02-05 21:26:41.612451
 ------------------------------------------------------------------------
+find_simple_eratosfen_n,test.0.in,0,True,0.0016041,2020-02-06 09:10:33.791504
+find_simple_eratosfen_n,test.1.in,1,True,0.0033826,2020-02-06 09:10:33.794580
+find_simple_eratosfen_n,test.2.in,2,True,0.0017289,2020-02-06 09:10:33.796518
+find_simple_eratosfen_n,test.3.in,3,True,0.0027123,2020-02-06 09:10:33.799529
+find_simple_eratosfen_n,test.4.in,4,True,0.0072903,2020-02-06 09:10:33.806617
+find_simple_eratosfen_n,test.5.in,5,True,0.026551,2020-02-06 09:10:33.833676
+find_simple_eratosfen_n,test.6.in,6,True,0.38057,2020-02-06 09:10:34.213814
+find_simple_eratosfen_n,test.7.in,7,True,2.2063,2020-02-06 09:10:36.420209
+------------------------------------------------------------------------
