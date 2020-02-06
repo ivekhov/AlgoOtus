@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/pytester.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/simple_numbers/list_numbers_example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo4test/simple_numbers_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/simple_numbers_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data4test/simple_numbers/__result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data4test/simple_numbers/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data4test/simple_numbers/result.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mytest">
+  <component name="RunManager" selected="Python.simple_numbers_collections">
     <configuration name="mytest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytester" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mytest" />
         <item itemvalue="Python.simple_numbers_collections" />
+        <item itemvalue="Python.mytest" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +106,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
