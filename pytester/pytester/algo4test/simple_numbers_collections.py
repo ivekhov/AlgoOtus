@@ -110,7 +110,7 @@ def find_simple_eratosfen_memopt(nmax):
     cnt = math.ceil((nmax + 1) / 32)
     bin_arr = [2 ** 32 for _ in (range(0, cnt))]
 
-    # ToDo : with arrays of ints
+    #
 
 
 
