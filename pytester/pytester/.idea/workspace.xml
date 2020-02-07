@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algo4test/fib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo4test/fib_collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/fib_results.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.0.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.0.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.1.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.2.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.2.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.3.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.3.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.4.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.4.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.5.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.5.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.6.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/fib/test.6.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo4test/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-    </list>
+    <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581077482479</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added fib 4.a (recursion) fib 4.b (iteration)">
+      <created>1581087684882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581087684882</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +206,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added pow2b scenario and compare-table" />
     <MESSAGE value="added 2.c pow_decomp scenario, added 3.d Eratosfen bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 2.c pow_decomp scenario, added 3.d Eratosfen bit" />
+    <MESSAGE value="added fib 4.a (recursion) fib 4.b (iteration)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fib 4.a (recursion) fib 4.b (iteration)" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1337" height="85" key="GridCell.Tab.0.bottom" timestamp="1580927139031">
