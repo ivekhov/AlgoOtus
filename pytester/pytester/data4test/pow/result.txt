@@ -1,0 +1,19 @@
+Algo name,File,Test #,Result,Time(sec),Time of testing
+pow_simple_2a,test.0.in,0,True,0.0012821,2020-02-07 10:02:05.248785
+pow_simple_2a,test.1.in,1,True,0.0019778,2020-02-07 10:02:05.250791
+pow_simple_2a,test.2.in,2,True,0.0019373,2020-02-07 10:02:05.252796
+pow_simple_2a,test.3.in,3,True,0.0016968,2020-02-07 10:02:05.254801
+pow_simple_2a,test.4.in,4,True,0.0016143,2020-02-07 10:02:05.256305
+pow_simple_2a,test.5.in,5,True,0.0016799,2020-02-07 10:02:05.257809
+pow_simple_2a,test.6.in,6,True,0.0018495,2020-02-07 10:02:05.259813
+pow_simple_2a,test.7.in,7,True,0.0028841,2020-02-07 10:02:05.262822
+------------------------------------------------------------------------
+pow_addmultiply_2b,test.0.in,0,True,0.0013043,2020-02-07 10:03:38.543065
+pow_addmultiply_2b,test.1.in,1,True,0.0015406,2020-02-07 10:03:38.545071
+pow_addmultiply_2b,test.2.in,2,True,0.0029267,2020-02-07 10:03:38.548079
+pow_addmultiply_2b,test.3.in,3,True,0.002712,2020-02-07 10:03:38.550588
+pow_addmultiply_2b,test.4.in,4,True,0.0015737,2020-02-07 10:03:38.552591
+pow_addmultiply_2b,test.5.in,5,True,0.0020141,2020-02-07 10:03:38.554596
+pow_addmultiply_2b,test.6.in,6,True,0.0016961,2020-02-07 10:03:38.556101
+pow_addmultiply_2b,test.7.in,7,True,0.0018467,2020-02-07 10:03:38.558106
+------------------------------------------------------------------------
