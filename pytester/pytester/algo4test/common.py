@@ -34,3 +34,14 @@ def compare_files_simple(first_file, second_file, algo):
 		result = algo(num)
 		
 	return result == find_etalon_value(second_file)
+
+
+def compare_files_int(first_file, second_file, algo):
+	with open(first_file, 'r') as f:
+		line = f.read().rstrip()
+		num = int(line)
+
+		# алгоритм натравливается на строку - содержание входного файла
+		result = algo(num)
+
+	return result == find_etalon_value(second_file)
