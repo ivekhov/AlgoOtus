@@ -1,6 +1,7 @@
 #  определяется число фибоначчи внутри последовательностей этих чисел
 #  с порядковым номером num
 
+import math
 
 def fib_recursion_4a(num):
     if num in(1, 2):
@@ -15,12 +16,12 @@ def fib_iteration_4b(num):
         f = a + b
         a = b
         b = f
-    return  b
-
+    return b
 
 
 def fib_gold_4c(num):
-    pass
+    phi = (1 + math.sqrt(5)) / 2
+    return math.floor((phi ** num) / math.sqrt(5) + 0.5)
 
 
 def fib_matrix_4d(num):
@@ -29,7 +30,7 @@ def fib_matrix_4d(num):
 
 
 def main():
-    algo = fib_iteration_4b
+    algo = fib_gold_4c
 
     num = 8
     print(algo(num))

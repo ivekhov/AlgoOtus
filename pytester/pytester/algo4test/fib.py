@@ -1,6 +1,8 @@
 from .common import compare_files_int
 # from .fib_collections import fib_recursion_4a as algo
-from .fib_collections import fib_iteration_4b as algo
+# from .fib_collections import fib_iteration_4b as algo
+from .fib_collections import fib_gold_4c as algo
+
 
 
 
