@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo4test/pow.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/pow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo4test/power_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/power_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo4test/simple_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/simple_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo4test/simple_numbers_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/simple_numbers_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data4test/pow/pow_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data4test/pow/pow_result.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data4test/pow/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data4test/pow/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data4test/simple_numbers/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data4test/simple_numbers/result.txt" afterDir="false" />
-    </list>
+    <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581059496164</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added 2.c pow_decomp scenario, added 3.d Eratosfen bit">
+      <created>1581077188847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581077188847</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +162,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added pow2b scenario and compare-table" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pow2b scenario and compare-table" />
+    <MESSAGE value="added 2.c pow_decomp scenario, added 3.d Eratosfen bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 2.c pow_decomp scenario, added 3.d Eratosfen bit" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1337" height="85" key="GridCell.Tab.0.bottom" timestamp="1580927139031">
