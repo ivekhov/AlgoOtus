@@ -110,16 +110,20 @@ def find_simple_eratosfen_memopt(nmax):
     cnt = math.ceil((nmax + 1) / 32)
     bin_arr = [2 ** 32 for _ in (range(0, cnt))]
 
+    # ToDo : with arrays of ints
+
+
+
     i = 2
     while i * i <= nmax:
-        if ((binary >> (2 ** i)) & 1) == 0:  # -2
+        if ((binary >> i) & 1) == 0:  # -2
             j = i * i
             while j < nmax:
                 binary = binary | (2 ** j)   # в бит записана 1
                 j = j + i
         i += 1
-    print(bin(binary))
-    print(len(bin(binary)))
+    # print(bin(binary))
+    # print(len(bin(binary)))
 
     res = []
 
@@ -127,6 +131,29 @@ def find_simple_eratosfen_memopt(nmax):
         if (binary >> b) & 1 == 0:
             res.append(arr[b])
 
+    # return res[2:]
+    return len(res[2:])
+
+
+def __find_simple_eratosfen_memopt(nmax):
+    arr = range(0, nmax+1)
+    binary = 4294967296
+
+    cnt = math.ceil((nmax + 1) / 32)
+    bin_arr = [2 ** 32 for _ in (range(0, cnt))]
+
+    i = 2
+    while i * i <= nmax:
+        if ((binary >> i) & 1) == 0:
+            j = i * i
+            while j < nmax:
+                binary = binary | (2 ** j)   # в бит записана 1
+                j = j + i
+        i += 1
+    res = []
+    for b in range(0, len(arr) - 1):
+        if (binary >> b) & 1 == 0:
+            res.append(arr[b])
     return res[2:]
 
 
@@ -139,7 +166,7 @@ def main():
     # algo = find_simple_eratosfen_n
     # algo = find_simple_eratosfen_loglogn
 
-    nmax = 30
+    nmax = 100
     print(algo(nmax))
 
 

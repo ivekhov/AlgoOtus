@@ -17,3 +17,39 @@ pow_addmultiply_2b,test.5.in,5,True,0.0020141,2020-02-07 10:03:38.554596
 pow_addmultiply_2b,test.6.in,6,True,0.0016961,2020-02-07 10:03:38.556101
 pow_addmultiply_2b,test.7.in,7,True,0.0018467,2020-02-07 10:03:38.558106
 ------------------------------------------------------------------------
+pow_bit_decomposition_2c,test.0.in,0,True,0.0025734,2020-02-07 14:39:07.333645
+pow_bit_decomposition_2c,test.1.in,1,True,0.0046694,2020-02-07 14:39:07.338658
+pow_bit_decomposition_2c,test.2.in,2,True,0.0018234,2020-02-07 14:39:07.340212
+pow_bit_decomposition_2c,test.3.in,3,True,0.0019182,2020-02-07 14:39:07.342165
+pow_bit_decomposition_2c,test.4.in,4,False,0.0020036,2020-02-07 14:39:07.344172
+pow_bit_decomposition_2c,test.5.in,5,False,0.0019881,2020-02-07 14:39:07.346901
+pow_bit_decomposition_2c,test.6.in,6,False,0.0016668,2020-02-07 14:39:07.347685
+pow_bit_decomposition_2c,test.7.in,7,True,0.0021153,2020-02-07 14:39:07.350692
+------------------------------------------------------------------------
+pow_bit_decomposition_2c,test.0.in,0,True,0.0019757,2020-02-07 14:45:00.704172
+pow_bit_decomposition_2c,test.1.in,1,True,0.0014468,2020-02-07 14:45:00.706163
+pow_bit_decomposition_2c,test.2.in,2,True,0.0013706,2020-02-07 14:45:00.707087
+pow_bit_decomposition_2c,test.3.in,3,True,0.0010959,2020-02-07 14:45:00.708157
+pow_bit_decomposition_2c,test.4.in,4,True,0.0013664,2020-02-07 14:45:00.710169
+pow_bit_decomposition_2c,test.5.in,5,True,0.001493,2020-02-07 14:45:00.711304
+pow_bit_decomposition_2c,test.6.in,6,True,0.0014637,2020-02-07 14:45:00.713103
+pow_bit_decomposition_2c,test.7.in,7,True,0.0015734,2020-02-07 14:45:00.714313
+------------------------------------------------------------------------
+pow_bit_decomposition_2c,test.0.in,0,False,0.0033721,2020-02-07 14:54:43.738466
+pow_bit_decomposition_2c,test.1.in,1,False,0.0035671,2020-02-07 14:54:43.741477
+pow_bit_decomposition_2c,test.2.in,2,False,0.0036298,2020-02-07 14:54:43.745487
+pow_bit_decomposition_2c,test.3.in,3,False,0.0035777,2020-02-07 14:54:43.749536
+pow_bit_decomposition_2c,test.4.in,4,True,0.002938,2020-02-07 14:54:43.752507
+pow_bit_decomposition_2c,test.5.in,5,True,0.0030438,2020-02-07 14:54:43.755577
+pow_bit_decomposition_2c,test.6.in,6,True,0.0029451,2020-02-07 14:54:43.758522
+pow_bit_decomposition_2c,test.7.in,7,False,0.0025085,2020-02-07 14:54:43.760614
+------------------------------------------------------------------------
+pow_bit_decomposition_2c,test.0.in,0,True,0.0013717,2020-02-07 14:55:01.598379
+pow_bit_decomposition_2c,test.1.in,1,True,0.0012172,2020-02-07 14:55:01.599382
+pow_bit_decomposition_2c,test.2.in,2,True,0.0012243,2020-02-07 14:55:01.600886
+pow_bit_decomposition_2c,test.3.in,3,True,0.0012155,2020-02-07 14:55:01.601889
+pow_bit_decomposition_2c,test.4.in,4,True,0.001499,2020-02-07 14:55:01.603393
+pow_bit_decomposition_2c,test.5.in,5,True,0.0013241,2020-02-07 14:55:01.604897
+pow_bit_decomposition_2c,test.6.in,6,True,0.0011735,2020-02-07 14:55:01.606401
+pow_bit_decomposition_2c,test.7.in,7,True,0.0011777,2020-02-07 14:55:01.607404
+------------------------------------------------------------------------

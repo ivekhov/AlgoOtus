@@ -45,3 +45,12 @@ find_simple_eratosfen_n,test.5.in,5,True,0.026551,2020-02-06 09:10:33.833676
 find_simple_eratosfen_n,test.6.in,6,True,0.38057,2020-02-06 09:10:34.213814
 find_simple_eratosfen_n,test.7.in,7,True,2.2063,2020-02-06 09:10:36.420209
 ------------------------------------------------------------------------
+find_simple_eratosfen_memopt,test.0.in,0,True,0.0027307,2020-02-07 15:02:05.803531
+find_simple_eratosfen_memopt,test.1.in,1,True,0.0028026,2020-02-07 15:02:05.806037
+find_simple_eratosfen_memopt,test.2.in,2,True,0.0022225,2020-02-07 15:02:05.808545
+find_simple_eratosfen_memopt,test.3.in,3,True,0.0031309,2020-02-07 15:02:05.811553
+find_simple_eratosfen_memopt,test.4.in,4,True,0.0062043,2020-02-07 15:02:05.818071
+find_simple_eratosfen_memopt,test.5.in,5,True,0.01344,2020-02-07 15:02:05.831693
+find_simple_eratosfen_memopt,test.6.in,6,True,0.2914,2020-02-07 15:02:06.122937
+find_simple_eratosfen_memopt,test.7.in,7,True,3.7217,2020-02-07 15:02:09.845518
+------------------------------------------------------------------------

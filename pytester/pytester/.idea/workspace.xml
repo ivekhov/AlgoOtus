@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algo4test/pow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo4test/power_collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.0.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.0.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.1.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.2.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.2.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.3.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.3.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.4.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.4.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.5.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.5.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.6.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.6.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.7.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data4test/pow/test.7.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo4test/pow.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/pow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo4test/power_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/power_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo4test/simple_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/simple_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo4test/simple_numbers_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/simple_numbers_collections.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/mytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data4test/pow/pow_result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data4test/pow/pow_result.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data4test/pow/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data4test/pow/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data4test/simple_numbers/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data4test/simple_numbers/result.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1XOjUAOkGafCD6fAEes8Tyu6WIY" />
@@ -68,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.power_collections">
+  <component name="RunManager" selected="Python.mytest">
     <configuration name="mytest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytester" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,9 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mytest" />
         <item itemvalue="Python.power_collections" />
         <item itemvalue="Python.simple_numbers_collections" />
-        <item itemvalue="Python.mytest" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +139,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580924047445</updated>
     </task>
+    <task id="LOCAL-00001" summary="added pow2b scenario and compare-table">
+      <created>1581059496164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581059496164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +164,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added pow2b scenario and compare-table" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pow2b scenario and compare-table" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1337" height="85" key="GridCell.Tab.0.bottom" timestamp="1580927139031">

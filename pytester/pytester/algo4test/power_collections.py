@@ -47,8 +47,30 @@ def pow_addmultiply_2b(num, degree):
     return result
 
 
+# 2c
+def pow_bit_decomposition_2c(num, degree):
+    if degree == 0: return 1
+    if degree == 1: return num
+    binary = degree
+    res = 1
+    # пройти по битам
+    # определить 1 или 0 в бите
+        # если 1, то результат умножается
+        #   на основание которое
+        #       в степени
+        #           (2 в степени порядкового номера бита)
+
+    for ix in range(0, degree.bit_length()):  # от 1 до 5
+        if ((degree >> ix) & 1) == 1:
+            res = res * (num ** (2 ** ix))
+
+    return res
+
+
+
+
 def main():
-    a = pow_addmultiply_2b(3, 50)
+    a = pow_bit_decomposition_2c(5, 5)
     print(a)
 
     # 2 ** 20 = 1048576
