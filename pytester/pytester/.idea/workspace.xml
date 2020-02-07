@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo4test/fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/fib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo4test/fib_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/fib_collections.py" afterDir="false" />
-    </list>
+    <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581087735658</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added fib 4.c (gold)">
+      <created>1581088357480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581088357480</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +221,8 @@
     <MESSAGE value="added pow2b scenario and compare-table" />
     <MESSAGE value="added 2.c pow_decomp scenario, added 3.d Eratosfen bit" />
     <MESSAGE value="added fib 4.a (recursion) fib 4.b (iteration)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fib 4.a (recursion) fib 4.b (iteration)" />
+    <MESSAGE value="added fib 4.c (gold)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fib 4.c (gold)" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1337" height="85" key="GridCell.Tab.0.bottom" timestamp="1580927139031">
