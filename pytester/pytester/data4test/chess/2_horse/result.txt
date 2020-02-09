@@ -1,0 +1,13 @@
+Algo name,File,Test #,Result,Time(sec),Time of testing
+------------------------------------------------------------------------
+find_steps_horse,test.0.in,0,True,0.042398,2020-02-09 14:39:10.783025
+find_steps_horse,test.1.in,1,True,0.045232,2020-02-09 14:39:10.829032
+find_steps_horse,test.2.in,2,True,0.035238,2020-02-09 14:39:10.865028
+find_steps_horse,test.3.in,3,True,0.032493,2020-02-09 14:39:10.898029
+find_steps_horse,test.4.in,4,True,0.027881,2020-02-09 14:39:10.926031
+find_steps_horse,test.5.in,5,True,0.03203,2020-02-09 14:39:10.958031
+find_steps_horse,test.6.in,6,True,0.040176,2020-02-09 14:39:10.999034
+find_steps_horse,test.7.in,7,True,0.050125,2020-02-09 14:39:11.049040
+find_steps_horse,test.8.in,8,True,0.038772,2020-02-09 14:39:11.089041
+find_steps_horse,test.9.in,9,True,0.032186,2020-02-09 14:39:11.121044
+------------------------------------------------------------------------
