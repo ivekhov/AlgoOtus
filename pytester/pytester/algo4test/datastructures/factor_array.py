@@ -1,7 +1,7 @@
 import ctypes
 
 
-class SingleArray(object):
+class FactorArray(object):
     def __init__(self):
         self.n = 0
         self.array = self.create_array()
@@ -43,10 +43,11 @@ class SingleArray(object):
     
 
     def create_array(self, increase=0):
-        return (ctypes.py_object * (self.n + increase))()
+        return (ctypes.py_object * (self.n * increase))()
 
-def single_array_testing():
-    a_s = SingleArray()
+
+def vector_array_testing():
+    a_s = VectorArray()
     a_s.add(42)
     print(len(a_s))
     print(a_s[0])
@@ -74,8 +75,7 @@ def single_array_testing():
 
 if __name__ == '__main__':
     print("Starting demo:")
-    # single_array_testing()
-    
+    vector_array_testing()
 
 
     print("Finishing demo.")

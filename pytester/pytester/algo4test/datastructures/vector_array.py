@@ -1,10 +1,10 @@
 import ctypes
 
 
-class SingleArray(object):
+class VectorArray(object):
     def __init__(self):
         self.n = 0
-        self.array = self.create_array()
+        self.array = self.create_array(increase=8)
 
     
     def __len__(self):
@@ -17,17 +17,23 @@ class SingleArray(object):
         return self.array[k]
 
 
-    def add(self, item):  
-        self.resize(1)
-        self.array[self.n] = item
-        self.n += 1
-
-
-    def resize(self, increase=1):
-        temp_copy = self.create_array(increase=1)
+    def resize(self, increase=8):
+        temp_copy = self.create_array(increase)
         for index in range(0, self.n):
             temp_copy[index] = self.array[index]
         self.array = temp_copy      
+
+
+    def create_array(self, increase=0):
+        return (ctypes.py_object * (self.n + increase))()
+
+
+
+    def add(self, item):  
+        self.resize()
+        self.array[self.n] = item
+        self.n += 1
+
 
 
     def remove(self, index):
@@ -42,10 +48,7 @@ class SingleArray(object):
         return temp
     
 
-    def create_array(self, increase=0):
-        return (ctypes.py_object * (self.n + increase))()
-
-def single_array_testing():
+def vector_array_testing():
     a_s = SingleArray()
     a_s.add(42)
     print(len(a_s))
@@ -74,7 +77,7 @@ def single_array_testing():
 
 if __name__ == '__main__':
     print("Starting demo:")
-    # single_array_testing()
+    vector_array_testing()
     
 
 
