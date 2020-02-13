@@ -1,0 +1,23 @@
+Algo name,File,Test #,Result,Time(sec),Time of testing
+find_steps_king,test.0.in,0,True,0.0028358,2020-02-09 01:33:48.507585
+find_steps_king,test.1.in,1,True,0.0077318,2020-02-09 01:33:48.515584
+find_steps_king,test.2.in,2,True,0.0038617,2020-02-09 01:33:48.520088
+find_steps_king,test.3.in,3,True,0.0093378,2020-02-09 01:33:48.529594
+find_steps_king,test.4.in,4,True,0.0033294,2020-02-09 01:33:48.533091
+find_steps_king,test.5.in,5,True,0.0049039,2020-02-09 01:33:48.538592
+find_steps_king,test.6.in,6,True,0.0091806,2020-02-09 01:33:48.548097
+find_steps_king,test.7.in,7,True,0.002869,2020-02-09 01:33:48.551446
+find_steps_king,test.8.in,8,True,0.0099161,2020-02-09 01:33:48.561612
+find_steps_king,test.9.in,9,True,0.0032302,2020-02-09 01:33:48.565130
+------------------------------------------------------------------------
+find_steps_horse,test.0.in,0,False,0.030339,2020-02-09 14:23:56.685021
+find_steps_horse,test.1.in,1,False,0.031518,2020-02-09 14:23:56.717023
+find_steps_horse,test.2.in,2,False,0.02982,2020-02-09 14:23:56.745027
+find_steps_horse,test.3.in,3,False,0.029946,2020-02-09 14:23:56.777035
+find_steps_horse,test.4.in,4,False,0.033378,2020-02-09 14:23:56.809031
+find_steps_horse,test.5.in,5,False,0.031954,2020-02-09 14:23:56.841030
+find_steps_horse,test.6.in,6,False,0.030068,2020-02-09 14:23:56.873028
+find_steps_horse,test.7.in,7,False,0.032869,2020-02-09 14:23:56.905039
+find_steps_horse,test.8.in,8,False,0.068109,2020-02-09 14:23:56.973038
+find_steps_horse,test.9.in,9,False,0.054734,2020-02-09 14:23:57.033037
+------------------------------------------------------------------------

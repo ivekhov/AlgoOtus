@@ -45,3 +45,14 @@ def compare_files_int(first_file, second_file, algo):
 		result = algo(num)
 
 	return result == find_etalon_value(second_file)
+
+
+def compare_files_chess(first_file, second_file, algo):
+	indata = find_etalon_value(first_file)
+	with open(second_file, 'r') as f:
+		lines = f.readlines()
+		value01 = int(lines[0].rstrip())
+		value02 = int(lines[1].rstrip())
+	result = algo(indata)
+
+	return (result[0] == value01) and (result[1] == value02)
