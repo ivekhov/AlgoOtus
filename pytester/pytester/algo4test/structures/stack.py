@@ -110,12 +110,46 @@ class PriorityQueue(object):
         self.general.add(self.indexes)
         self.general.add(self.items)
 
-    def enqueue(self, index, item):
-        self.general[0].add_by_index(index,)
+    def __getitem__(self, k):
+        if k > self.n:
+            return IndexError('Index out of bounds')
+        return self.array[k]
 
-    def dequeue(self, index):
-        pass
+    def enqueue(self, index, item):
+        self.indexes.add(index)
+        self.items.add(item)
+
+    def display(self, index):
+        ix = self.indexes[index]
+        val = self.items[index]
+        return ix, val
+
+    def dequeue(self):
+        loc_min = 999_999
+        loc_ix = 0
+        for ix in range(0, len(self.indexes)):
+            if self.indexes[ix] < loc_min:
+                loc_min = self.indexes[ix]
+                loc_ix = ix
+        temp = self.items[loc_ix]
+        self.indexes.remove(loc_ix)
+        self.items.remove(loc_ix)
+        return temp
+
+
+def prior_queue_testing():
+    a = PriorityQueue()
+    a.enqueue(11, 42)
+    a.enqueue(2, 'foo')
+    a.enqueue(5, 'spam')
+    a.enqueue(1, 'bar')
+    print(a.dequeue())
+    print(a.display(0))
+    print(a.display(1))
+    print(a.display(2))
+    # print(a.display(3))
+
 
 
 if __name__ == '__main__':
-    queue_testing()
+    prior_queue_testing()

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algo4test/datastructures/struct_collections.py" afterDir="false" />
+    <list default="true" id="f9c40cb9-3ec7-45fb-9d5c-af78b54ab5cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo4test/structures/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/structures/stack.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fib_collections">
+  <component name="RunManager" selected="Python.stack">
     <configuration name="fib_collections" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytester" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,8 +135,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytester" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo4test/structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo4test/structures/stack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stack" />
         <item itemvalue="Python.fib_collections" />
         <item itemvalue="Python.mytest" />
         <item itemvalue="Python.power_collections" />
@@ -228,12 +250,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added pow2b scenario and compare-table" />
     <MESSAGE value="added 2.c pow_decomp scenario, added 3.d Eratosfen bit" />
     <MESSAGE value="added fib 4.a (recursion) fib 4.b (iteration)" />
     <MESSAGE value="added fib 4.c (gold)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fib 4.c (gold)" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;pytester/pytester/__pycache__/config.cpython-37.pyc&#10;#&#9;pytester/pytester/algo4test/__pycache__/common.cpython-37.pyc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;pytester/pytester/__pycache__/config.cpython-37.pyc&#10;#&#9;pytester/pytester/algo4test/__pycache__/common.cpython-37.pyc" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1337" height="85" key="GridCell.Tab.0.bottom" timestamp="1580927139031">
