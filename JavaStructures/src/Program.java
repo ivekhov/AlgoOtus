@@ -1,14 +1,43 @@
 import Examples.FactorArray;
 import Examples.IArray;
+import Examples.MatrixArray;
 import Examples.SingleArray;
+import Examples.VectorArray;
+import Examples.SpaceArray;
 import Structures.*;
 
 public class Program {
     public static void main(String[] args){
-        IArray<String> singleArray = new SingleArray<>();
-        IArray<String> factorArray = new FactorArray<>();
-        addValues(factorArray, 1_000);
-        getValues(factorArray, 1_000);
+
+//        System.out.println(49%50);
+//        System.out.println(50%50);
+//        System.out.println(51%50);
+
+        IArray<String> spaceArray = new SpaceArray<>();
+        addValues(spaceArray, 100);
+        getValues(spaceArray, 100);
+
+
+
+
+
+//        IArray<String> matrixArray = new MatrixArray<>();
+//        addValues(matrixArray, 100_000);
+//        getValues(matrixArray, 100_000);
+
+
+
+//        IArray<String> singleArray = new SingleArray<>();
+//        IArray<String> factorArray = new FactorArray<>();
+//        addValues(factorArray, 1_000);
+//        getValues(factorArray, 1_000);
+
+//        IArray<String> vectorArray = new VectorArray<>();
+//        addValues(vectorArray, 1_000);
+//        getValues(vectorArray, 1_000);
+
+
+
 
     }
 
@@ -25,6 +54,7 @@ public class Program {
         long start = System.currentTimeMillis();
         for (int i = 0; i < count; i++) {
             array.get(i);
+//            System.out.println(array.get(i));
         }
         long duration = System.currentTimeMillis() - start;
         System.out.println("Get from  " + array + " " + count + " " + duration + " ms");
