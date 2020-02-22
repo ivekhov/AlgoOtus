@@ -7,7 +7,64 @@ public class ShellSort
     {
         this.array = array;
     }
-    public void sortAnother(int param)
+    public void sortForth()
+    {
+        int parameter = 0;
+        int h = calcStepThird(parameter, 1);
+        while (h < array.length)
+        {
+            for (int i = h; i < array.length; i++) {
+                for (int j = i; j >= h && (array[j] <= array[j - h]); j -= h)       //  decrease|increase < or > in 53 symbol
+                {
+                    Swap(j, j - h);
+                }
+            }
+            parameter += 1;
+            h = calcStepThird(parameter, 1);
+        }
+    }
+    public void sortThird()
+    {
+        int parameter = 1;
+        int h = calcStepThird(parameter, -1);
+        while (h < array.length)
+        {
+            for (int i = h; i < array.length; i++) {
+                for (int j = i; j >= h && (array[j] <= array[j - h]); j -= h)       //  decrease|increase < or > in 53 symbol
+                {
+                    Swap(j, j - h);
+                }
+            }
+            parameter += 1;
+            h = calcStepThird(parameter, -1);
+        }
+    }
+    public int calcStepThird(int parameter, int sign)
+    {
+        int i = (int) Math.pow(2, parameter) + sign;
+        return i;
+    }
+    public void sortSecond()
+    {
+        int parameter = 1;
+        int h = calcStepSecond(parameter);
+        while (h >= 1)
+        {
+            for (int i = h; i < array.length; i++) {
+                for (int j = i; j >= h && (array[j] <= array[j - h]); j -= h)       //  decrease|increase < or > in 53 symbol
+                {
+                    Swap(j, j - h);
+                }
+            }
+            h = calcStepSecond(++parameter);
+        }
+    }
+    public int calcStepSecond(int parameter)
+    {
+        var i = (int) (2 * (array.length / Math.pow(2, parameter + 1)));
+        return i;
+    }
+    public void sortFirst(int param)
     {
         int h = 1;
         while (h < array.length / param)
@@ -17,7 +74,7 @@ public class ShellSort
         while (h >= 1)
         {
             for (int i = h; i < array.length; i++) {
-                for (int j = i; j >= h && (array[j] >= array[j - h]); j -= h)
+                for (int j = i; j >= h && (array[j] <= array[j - h]); j -= h)       //  decrease|increase < or > in 53 symbol
                 {
                     Swap(j, j - h);
                 }
@@ -25,7 +82,6 @@ public class ShellSort
             h /= param;
         }
     }
-
     public boolean isSorted()
     {
         for (int i = 1; i < array.length; i++)

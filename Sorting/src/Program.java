@@ -10,7 +10,10 @@ public class Program {
         int[] arr = {5, 7 ,2, 4 ,3, 9, 1, 0, 6, 8, 42, 17, 99, -2, -999, 100012};
         ShellSort myShellSort = new ShellSort(arr);
         myShellSort.Print();
-        myShellSort.sortAnother(2);
+//        myShellSort.sortFirst(2);
+//        myShellSort.sortSecond();
+//        myShellSort.sortThird();
+        myShellSort.sortForth();
         myShellSort.Print();
 
 //         InsertionSort myInsertionSort = new InsertionSort(arr);
