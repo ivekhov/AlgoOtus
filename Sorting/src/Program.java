@@ -1,4 +1,5 @@
 import HeapSort.HeapSort;
+import HeapSort.HeapSortRepeat;
 import BubbleSort.BubblesSort;
 import InsertionSort.InsertionSort;
 import SelectSort.SelectSort;
@@ -8,13 +9,15 @@ public class Program {
     public static void main(String[] args)
     {
         int[] arr = {5, 7 ,2, 4 ,3, 9, 1, 0, 6, 8, 42, 17, 99, -2, -999, 100012};
-        ShellSort myShellSort = new ShellSort(arr);
-        myShellSort.Print();
+
+
+//        ShellSort myShellSort = new ShellSort(arr);
+//        myShellSort.Print();
 //        myShellSort.sortFirst(2);
 //        myShellSort.sortSecond();
 //        myShellSort.sortThird();
-        myShellSort.sortForth();
-        myShellSort.Print();
+//        myShellSort.sortForth();
+//        myShellSort.Print();
 
 //         InsertionSort myInsertionSort = new InsertionSort(arr);
 //         myInsertionSort.Print();
@@ -33,5 +36,11 @@ public class Program {
 
 //        HeapSort myHeapSort = new HeapSort(arr);
 //        myHeapSort.HeapSort();
+
+        HeapSortRepeat myHeapSortRep = new HeapSortRepeat(arr);
+        myHeapSortRep.Print();
+        myHeapSortRep.Sort();
+        myHeapSortRep.Print();
+
     }
 }
