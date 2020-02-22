@@ -150,6 +150,5 @@ def prior_queue_testing():
     # print(a.display(3))
 
 
-
 if __name__ == '__main__':
     prior_queue_testing()
