@@ -13,10 +13,10 @@ public class Program {
         int[] arr = {5, 7 ,2, 4 ,3, 9, 1, 0, 6, 8, 42, 17, 99, -2, -999, 100012};
 
 
-        int[] A = {5, 42, 111, 245, 521, 999, 10500, 0, -31, 13};
-        MergeSort myMergeSort = new MergeSort(A);
-        myMergeSort.Sort(0, A.length - 1);
-        myMergeSort.Print();
+//        int[] A = {5, 42, 111, 245, 521, 999, 10500, 0, -31, 13};
+//        MergeSort myMergeSort = new MergeSort(A);
+//        myMergeSort.Sort(0, A.length - 1);
+//        myMergeSort.Print();
 
 
 //        MergeSort myMergeSort = new MergeSort();
