@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+import Structures.*;
+import Structures.SingleArray;
+=======
 import Examples.FactorArray;
 import Examples.IArray;
 import Examples.MatrixArray;
@@ -5,10 +9,14 @@ import Examples.SingleArray;
 import Examples.VectorArray;
 import Examples.SpaceArray;
 import Structures.*;
+>>>>>>> 4fd492291684d3d2b89cac070d0f7294b409dcb8
 
 public class Program {
     public static void main(String[] args){
 
+<<<<<<< HEAD
+        VectorArray[][] pq = new VectorArray[0][0];
+=======
 //        System.out.println(49%50);
 //        System.out.println(50%50);
 //        System.out.println(51%50);
@@ -61,6 +69,7 @@ public class Program {
     }
 
 }
+>>>>>>> 4fd492291684d3d2b89cac070d0f7294b409dcb8
 
 
 
@@ -124,3 +133,11 @@ public class Program {
 //        for (int i = 0; i < mySingleArr.getArrLen() ; i++) {
 //            System.out.println(mySingleArr.getItem(i));
 //        }
+<<<<<<< HEAD
+
+
+    }
+}
+
+=======
+>>>>>>> 4fd492291684d3d2b89cac070d0f7294b409dcb8

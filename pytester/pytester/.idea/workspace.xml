@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="f9c40cb9-3ec7-45fb-9d5c-af78b54ab5cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pytester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytester.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo4test/structures/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo4test/structures/stack.py" afterDir="false" />
+    </list>
+=======
     <list default="true" id="f9c40cb9-3ec7-45fb-9d5c-af78b54ab5cb" name="Default Changelist" comment="" />
+>>>>>>> 4fd492291684d3d2b89cac070d0f7294b409dcb8
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +177,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78c6b7cc-229c-4121-a9b7-5677d111217a" name="Default Changelist" comment="" />
+      <changelist id="f9c40cb9-3ec7-45fb-9d5c-af78b54ab5cb" name="Default Changelist" comment="" />
       <created>1580924047445</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
