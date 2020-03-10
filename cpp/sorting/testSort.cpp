@@ -5,6 +5,8 @@
 #include "./InsertionSort/InsertionSort.hpp"
 #include "./ShellSort/ShellSort.hpp"
 #include "./HeapSort/HeapSort.hpp"
+#include "./MergeSort/MergeSort.hpp"
+
 
 using namespace std;
 
@@ -15,14 +17,15 @@ int main()
 
   myprint(arr, size);
 
-  heapSort(arr, size);
+  mergeSort(arr, 0, 8); 
 
-// shellSortThird(arr, size);
 
+//  heapSort(arr, size);
+//  shellSortThird(arr, size);
 //  shellSortSecond(arr, size);
 //  shellSortFirst(arr, size, 2);
   
-//	insertionSort(arr, size);
+//  insertionSort(arr, size);
 //  bubbleSort(arr, size);
 //  selectionSort(arr, size);
 
